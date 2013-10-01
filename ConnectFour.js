@@ -48,9 +48,9 @@ function getRowWin(matrix){
                     return defaultPos;
                 }
             }
-            col = col++;
+            col++;
         }
-        row = row--;
+        row--;
     }
     return defaultPos;
 }
